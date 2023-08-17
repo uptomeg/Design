@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restify</title>
+  <link rel="stylesheet" href="login.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <div class="header"></div>
+  <!-- container -->
+  <div class="container d-flex flex-column flex-lg-row justify-content-evenly mt-5 pt-5">
+    <!-- heading -->
+    <div class="text-center text-lg-start mt-lg-5 pt-lg-5">
+      <h1 class="text-warning fw-bold fs-lg">Restify</h1>
+      <p class="w-75 mx-auto mx-lg-0 fs-4 writer">Your home everywhere you go.</p>
+    </div>
+    <!-- form  -->
+    <div style="max-width: 28rem; width: 100%">
+      <div class="bg-success-subtle shadow rounded p-3 input-group-lg">
+        <input type="email" class="form-control my-3" placeholder="Email address or phone number"/>
+        <input type="password" class="form-control my-3" placeholder="Password"/>
+        <a href="#"><button class="btn btn-primary w-100 my-3">Log In</button></a>
+        <a href="#" class="text-decoration-none text-center"><p>Forgot password</p></a>
+        <hr/>
+        <div class="text-center my-4">
+          <p class="text-secondary">New to Restify?</p>
+          <button class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#createModal">Create New Account</button>
+        </div>
+<!-- Modal -->
+        <div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="createModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 fw-bold" id="createModalLabel">Create your account</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="First name"/>
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Last name"/>
+                    </div>
+                  </div>
+                  <input type="email" class="form-control my-3" placeholder="Your email address or phone number"/>
+                  <input type="password" class="form-control my-3" placeholder="Your password"/>
+                  <div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something">
+                      <label class="form-check-label text-secondary fs-sm">By clicking Sign Up, you agree to our terms and policies</label>
+                    </div>
+                    <div class="text-center mt-3">
+                      <button type="button" class="btn btn-success btn-lg" data-bs-dismiss="modal">Sign Up</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+
+  
+
+<footer class="bg-white text-muted position-absolute bottom-0 start-50">
+  <p>All right reserved Restify 2023.</p>
+</footer>
+
+</body>
+
+
+</html>
+
